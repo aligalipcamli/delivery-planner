@@ -21,4 +21,6 @@ return [
     Sonata\AdminBundle\SonataAdminBundle::class => ['all' => true],
     Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle::class => ['all' => true],
     Sonata\EasyExtendsBundle\SonataEasyExtendsBundle::class => ['dev' => true, 'test' => true],
+    FOS\UserBundle\FOSUserBundle::class => ['all' => true],
+    Sonata\UserBundle\SonataUserBundle::class => ['all' => true],
 ];
